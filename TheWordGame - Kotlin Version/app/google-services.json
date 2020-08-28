@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "987335411558",
+    "firebase_url": "https://moonlit-watch-140819.firebaseio.com",
+    "project_id": "moonlit-watch-140819",
+    "storage_bucket": "moonlit-watch-140819.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987335411558:android:c30b884d82949fd5",
+        "android_client_info": {
+          "package_name": "nesat.thewordgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987335411558-siblk84dofqtcav0ijotfviqhq1ji6fi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjBd7boDbhuN0ergsu3P38MQdaHeHaNR8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987335411558:android:f432f1859d74b6c0",
+        "android_client_info": {
+          "package_name": "nesat.lunadigitalassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987335411558-siblk84dofqtcav0ijotfviqhq1ji6fi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjBd7boDbhuN0ergsu3P38MQdaHeHaNR8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987335411558:android:274871b1886a04c0",
+        "android_client_info": {
+          "package_name": "nesat.besserquizzer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987335411558-siblk84dofqtcav0ijotfviqhq1ji6fi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjBd7boDbhuN0ergsu3P38MQdaHeHaNR8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987335411558:android:af597e5865fe99bf",
+        "android_client_info": {
+          "package_name": "nesat.lifesimulator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987335411558-siblk84dofqtcav0ijotfviqhq1ji6fi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjBd7boDbhuN0ergsu3P38MQdaHeHaNR8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

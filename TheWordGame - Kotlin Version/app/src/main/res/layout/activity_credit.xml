@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context="nesat.thewordgame.CreditActivityK">
+
+    <TextView
+        android:id="@+id/credits_headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:text="@string/credits_headline"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/universalwhiteconstrust"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/credits_programming_headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:text="@string/credits_programming_headline"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/universalwhiteconstrust"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/credits_programming_niklasenglmeier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:text="@string/credits_name_niklasenglmeier"
+        android:textAlignment="center"
+        android:textColor="@color/universalwhiteconstrust"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/credits_programmingassistance_headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:text="@string/credits_programmingassistance_headline"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/universalwhiteconstrust"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/credits_programmingassistance_benediktschmitt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:text="@string/credits_name_benediktschmitt"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/universalwhiteconstrust"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/credits_programmingassistance_nicoschott"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:text="@string/credits_name_nicoschott"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/universalwhiteconstrust"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/credits_levelassistance_headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:text="@string/credits_levelassistance_headline"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/universalwhiteconstrust"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/credits_levelassistance_kilianbetzl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:text="@string/credits_name_kilianbetzl"
+        android:textAlignment="center"
+        android:textColor="@color/universalwhiteconstrust"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/credits_levelassistance_jonathandietel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:text="Jonathan Dietel"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/credits_levelassistance_parents_teachers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:text="@string/credits_name_parents_teachers"
+        android:textAlignment="center"
+        android:textColor="@color/universalwhiteconstrust"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/credits_translation_headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:text="Translations"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/credits_translation_sakuramurayama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:text="@string/credits_name_sakuramurayama"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/credits_music_headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:text="@string/credits_music_headline"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/universalwhiteconstrust"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/credits_music_xrenon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:text="@string/credits_name_xrenon"
+        android:textAlignment="center"
+        android:textColor="@color/universalwhiteconstrust"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/credits_music_xrenon_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:text="@string/credits_name_xrenon_2"
+        android:textAlignment="center"
+        android:textColor="@color/universalwhiteconstrust"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/credits_music_xrenon_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        android:textColor="@color/universalwhiteconstrust"
+        android:textStyle="bold" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/creditsBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:adSize="320x50"
+        app:adUnitId="ca-app-pub-8865326875373213/5240884594" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/credits_button_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/universalwhiteconstrust"
+        android:fontFamily="casual"
+        android:text="@string/credits_button_back"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+</LinearLayout>

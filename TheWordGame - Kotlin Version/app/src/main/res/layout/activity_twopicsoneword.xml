@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context="nesat.thewordgame.TwoPicsOneWordActivityK"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="25dp">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/twoPicsOneWordLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:text="@string/twopicsoneword_textview_level"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/LightBlue100"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/twopicsonewordbucksTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_weight="1"
+            android:fontFamily="casual"
+            android:gravity="center_vertical"
+            android:text="@string/twopicsoneword_buckstext"
+            android:textColor="@color/theme5TextColor"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/twopicsonewordbucksValueView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:fontFamily="casual"
+            android:gravity="center_vertical"
+            android:text="@string/twopicsoneword_bucksvalue_def"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/theme5TextColor"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:foregroundGravity="center"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/leftPic"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginEnd="400dp"
+            android:contentDescription="@string/twopicsoneword_imageview_leftPic_contentdescription"
+            android:scaleType="matrix" />
+
+        <ImageView
+            android:id="@+id/rightPic"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="400dp"
+            android:contentDescription="@string/twopicsoneword_imageview_rightPic_contentdescription"
+            android:foregroundGravity="right"
+            android:scaleType="matrix" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/twoPicsOneWordAnswerEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/twopicsoneword_edittext_content_hint"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/LightBlue500"
+        android:textColorHint="@color/LightBlue500"
+        android:textStyle="bold"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/twoPicsOneWordCheckButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/LightBlue500"
+        android:fontFamily="casual"
+        android:text="@string/twopicsoneword_button_check"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/twoPicsOneWordHint1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/LightBlue200"
+        android:fontFamily="casual"
+        android:text="@string/twopicsoneword_button_hint1"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="RtlHardcoded"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="415dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/twoPicsOneWordHint2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/LightBlue300"
+        android:fontFamily="casual"
+        android:text="@string/twopicsoneword_button_hint2"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="472dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/twoPicsOneWordHint3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/LightBlue400"
+        android:fontFamily="casual"
+        android:text="@string/twopicsoneword_button_hint3"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="530dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_weight="1" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/twopicsonewordBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:adSize="350x50"
+        app:adUnitId="ca-app-pub-8865326875373213/4036955466"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_editor_absoluteY="353dp" />
+
+    <Button
+        android:id="@+id/BackButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/LightBlueA400"
+        android:fontFamily="casual"
+        android:text="@string/twopicsoneword_button_back"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="503dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+</LinearLayout>

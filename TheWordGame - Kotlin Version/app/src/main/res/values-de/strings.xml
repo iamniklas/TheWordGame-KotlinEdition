@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">The Word Game</string>
+
+
+    <!-- Strings in Launcher DE-->
+    <string name="launcher_textview_version">Version</string>
+    <string name="launcher_updatedialog_text">Suche nach Updates...</string>
+    <string name="launcher_updatedialog_updateavailable_title">Update verfügbar!</string>
+    <string name="launcher_updatedialog_updateavailable_message">Es ist ein Update verfügbar! \nBitte lade es herrunter, um alle neuen Features nutzen zu können.</string>
+
+    <!-- Strings in MainMenu DE -->
+    <string name="main_button_play">Spielen</string>
+    <string name="main_textview_info">Ein Spiel von NESAT Studio</string>
+    <string name="main_button_credits">Entwickler</string>
+    <string name="main_button_options">Einstellungen</string>
+    <string name="main_dialog_translationwarning_title">Warning</string>
+    <string name="main_dialog_translationwarning_content">Your current device language is:</string>
+    <string name="main_dialog_translationwarning_content2">For this language only the menus are translated.</string>
+    <string name="main_dialog_translationwarning_content3">The main game is still in English.</string>
+    <string name="main_dialog_translationwarning_button_pos">OKAY</string>
+
+    <!-- Strings in HelpMenu DE -->
+    <string name="help_textview_headline">Hilfe</string>
+    <string name="help_textview_page_default">PAGE</string>
+
+    <string name="help_textview_page1_helpline1">Was ist The Word Game ?</string>
+    <string name="help_textview_page1_helpline2">The Word Game ist ein Spiel mit Wörtern.</string>
+    <string name="help_textview_page1_helpline3">In den Spielmodi musst du verschiedene Aufgaben mit Wörtern lösen.</string>
+    <string name="help_textview_page1_helpline4">Die Spielmodi sind auf den nächsten Seiten genauer erklärt.</string>
+    <string name="help_textview_page1_helpline5"> </string>
+    <string name="help_textview_page1_helpline6"> </string>
+
+    <string name="help_textview_page2_helpline1">Spielmodus: LogicWord</string>
+    <string name="help_textview_page2_helpline2">Du erhältst eine kleine Information.</string>
+    <string name="help_textview_page2_helpline3">Du musst zu dieser Information das passende Wort/ die passenden Wörter finden.</string>
+    <string name="help_textview_page2_helpline4">Beispiel:</string>
+    <string name="help_textview_page2_helpline5">ROT + GELB + GRÜN + BLAU + LILA</string>
+    <string name="help_textview_page2_helpline6">Antwort: Regenbogen</string>
+
+    <string name="help_textview_page3_helpline1">Spielmodus: 2 Pics 1 Word</string>
+    <string name="help_textview_page3_helpline2">Der Modus ist momentan gesperrt.</string>
+    <string name="help_textview_page3_helpline3"> </string>
+    <string name="help_textview_page3_helpline4"> </string>
+    <string name="help_textview_page3_helpline5"> </string>
+    <string name="help_textview_page3_helpline6"> </string>
+
+    <string name="help_textview_page4_helpline1">Spielmodus: Just one word</string>
+    <string name="help_textview_page4_helpline2">Du siehst ein Wort</string>
+    <string name="help_textview_page4_helpline3">Zu dem Wort musst du 5 Wörter finden,</string>
+    <string name="help_textview_page4_helpline4">die zu dem Wort passen.</string>
+    <string name="help_textview_page4_helpline5">Beispiel: Alkohol</string>
+    <string name="help_textview_page4_helpline6">Wein, Vodka, Whiskey, Sekt, Bier</string>
+
+    <string name="help_textview_page5_helpline1">Aktualisierung und Rückmeldung</string>
+    <string name="help_textview_page5_helpline2">Es würde mich freuen, wenn du mir sagst wie du meine App findest.</string>
+    <string name="help_textview_page5_helpline3">Du kannst die App im Play Store bewerten oder du kannst mir eine Mail schreiben..</string>
+    <string name="help_textview_page5_helpline4">Danke :) </string>
+    <string name="help_textview_page5_helpline5"> </string>
+    <string name="help_textview_page5_helpline6"> </string>
+
+    <string name="help_textview_page1">Seite 1/5</string>
+    <string name="help_textview_page2">Seite 2/5</string>
+    <string name="help_textview_page3">Seite 3/5</string>
+    <string name="help_textview_page4">Seite 4/5</string>
+    <string name="help_textview_page5">Seite 5/5</string>
+
+    <string name="help_info_stopped">Gestoppt</string>
+    <string name="help_button_previous">Zurück</string>
+    <string name="help_button_next">Vor</string>
+    <string name="help_button_back">Zurück</string>
+
+    <!-- Strings in Category Selector DE -->
+    <string name="cselector_button_logicword">LOGIC WORD</string>
+    <string name="cselector_button_2Pics1Word">2 PICS - 1 WORD</string>
+    <string name="cselector_button_justoneword">JUST ONE WORD</string>
+    <string name="cselector_textview_progress_def">Fortschritt ( 0 / 0 )</string>
+    <string name="cselector_progress_2"> / </string>
+    <string name="cselector_textview_headline">Spielmodus</string>
+    <string name="cselector_progress_1">Fortschritt (</string>
+    <string name="cselector_button_back">Zurück</string>
+
+    <!-- Strings in OptionsMenu DE -->
+    <string name="options_button_help">Hilfe</string>
+    <string name="options_button_theme">Design ändern</string>
+    <string name="options_button_back">Zurück</string>
+    <string name="options_button_reset">Zurücksetzen</string>
+    <string name="options_button_musicOn">Musik</string>
+    <string name="options_headline">Einstellungen</string>
+    <string name="options_checkbox_sounds">Sounds</string>
+
+    <string name="options_dialog_reset_title">Zurücksetzen bestätigen</string>
+    <string name="options_dialog_reset_message_p1">Spiel zurücksetzen ? :</string>
+    <string name="options_dialog_reset_message_p2">BUCKS :</string>
+    <string name="options_dialog_reset_message_p3">LOGICWORD LEVEL :</string>
+    <string name="options_dialog_reset_message_p5">JUST ONE WORD LEVEL :</string>
+    <string name="options_dialog_reset_positivebutton">Ja</string>
+    <string name="options_dialog_reset_negativebutton">Nein</string>
+    <string name="options_dialog_reset_toast">Zurücksetzen erfolgreich</string>
+
+    <!-- Strings in LogicWord DE -->
+    <string name="logicword_textview_headline">Level</string>
+    <string name="logicword_textview_leveltext">LEVELTEXT</string>
+    <string name="logicword_textview_line">-------------------------------------------------------------</string>
+    <string name="logicword_button_check">CHECK</string>
+    <string name="logicword_edittext_answer_content">Antwort</string>
+    <string name="logicword_textview_bucks">Münzen</string>
+    <string name="logicword_textview_bucksvalue_default">0</string>
+    <string name="logicword_levelview_level">Level</string>
+    <string name="logicword_button_back">ZURÜCK</string>
+
+    <string name="logicword_level_level_1">BLUE + RED</string>
+    <string name="logicword_level_level_2">4 + 17</string>
+    <string name="logicword_level_level_3">21</string>
+    <string name="logicword_level_level_4">MMXVII</string>
+    <string name="logicword_level_level_5">NACL</string>
+    <string name="logicword_level_level_6">CODE SALT TO LEET</string>
+    <string name="logicword_level_level_7">LEVEL</string>
+    <string name="logicword_level_level_8">SOMTHNG IS WRONG</string>
+    <string name="logicword_level_level_9">GOLDEN STATE</string>
+    <string name="logicword_level_level_10">YES</string>
+    <string name="logicword_level_level_11">EMC²</string>
+    <string name="logicword_level_level_12">911</string>
+    <string name="logicword_level_level_13">13</string>
+    <string name="logicword_level_level_14">… --- …</string>
+    <string name="logicword_level_level_15">NOW TRANSLATE … --- …</string>
+    <string name="logicword_level_level_16">CASINO</string>
+    <string name="logicword_level_level_17">SIRI</string>
+    <string name="logicword_level_level_18">BUT THERE IS ONE MORE THING</string>
+    <string name="logicword_level_level_19">1337</string>
+    <string name="logicword_level_level_20">GOOGLE</string>
+    <string name="logicword_level_level_21">INTERNET</string>
+    <string name="logicword_level_level_22">HOFSTADTER</string>
+    <string name="logicword_level_level_23">MIKE AND</string>
+    <string name="logicword_level_level_24">COMPUTER + TABLET</string>
+    <string name="logicword_level_level_25">VAULT-TEC</string>
+    <string name="logicword_level_level_26">QWERTZ/QWERTY</string>
+    <string name="logicword_level_level_27">THE CAT IS DEAD</string>
+    <string name="logicword_level_level_28">I´M IN HALO AND WINDOWS</string>
+    <string name="logicword_level_level_29">BROCODE</string>
+    <string name="logicword_level_level_30">FRANKLIN + MICHAEL + TREVOR</string>
+    <string name="logicword_level_level_31">BILL CLINTON</string>
+    <string name="logicword_level_level_32">HILLARY CLINTON</string>
+    <string name="logicword_level_level_33">DONALD</string>
+    <string name="logicword_level_level_34">CALL THEPRESIDENT</string>
+    <string name="logicword_level_level_35">MUHAMMED ALI</string>
+    <string name="logicword_level_level_36">SILLICON VALLEY</string>
+    <string name="logicword_level_level_37">WINDOWS</string>
+    <string name="logicword_level_level_38">CHARLIE HARPER</string>
+    <string name="logicword_level_level_39">ANSWER OF EVERYTHING</string>
+    <string name="logicword_level_level_40">MAGIC STICK</string>
+    <string name="logicword_level_level_41">__________</string>
+    <string name="logicword_level_level_42">COUNT</string>
+    <string name="logicword_level_level_43">MY FATHER WAS A DRINKER</string>
+    <string name="logicword_level_level_44">3.14159265</string>
+    <string name="logicword_level_level_45">2/4, 3/4, 4/4</string>
+    <string name="logicword_level_level_46">S3XY</string>
+    <string name="logicword_level_level_47">1776 - 2076</string>
+    <string name="logicword_level_level_48">MY NAME IS HONEYCOMB11.</string>
+    <string name="logicword_level_level_49">ALIBI / MAESTRO</string>
+    <string name="logicword_level_level_50"></string>
+
+    <string name="logicword_answer_level_1">PURPLE </string>
+    <string name="logicword_answer_level_2">21 </string>
+    <string name="logicword_answer_level_3">BLACKJACK </string>
+    <string name="logicword_answer_level_4">2017 </string>
+    <string name="logicword_answer_level_5">SALT </string>
+    <string name="logicword_answer_level_6">5417 </string>
+    <string name="logicword_answer_level_7">7 </string>
+    <string name="logicword_answer_level_8">SOMETHING </string>
+    <string name="logicword_answer_level_9">CALIFORNIA </string>
+    <string name="logicword_answer_level_10">NO </string>
+    <string name="logicword_answer_level_11">EINSTEIN </string>
+    <string name="logicword_answer_level_12">POLICE </string>
+    <string name="logicword_answer_level_13">LEVEL </string>
+    <string name="logicword_answer_level_14">MORSE </string>
+    <string name="logicword_answer_level_15">SOS </string>
+    <string name="logicword_answer_level_16">LAS VEGAS </string>
+    <string name="logicword_answer_level_17">IOS </string>
+    <string name="logicword_answer_level_18">STEVE JOBS </string>
+    <string name="logicword_answer_level_19">LEET </string>
+    <string name="logicword_answer_level_20">GOOGOL </string>
+    <string name="logicword_answer_level_21">WWW </string>
+    <string name="logicword_answer_level_22">COOPER </string>
+    <string name="logicword_answer_level_23">MOLLY </string>
+    <string name="logicword_answer_level_24">NETBOOK </string>
+    <string name="logicword_answer_level_25">FALLOUT </string>
+    <string name="logicword_answer_level_26">KEYBOARD </string>
+    <string name="logicword_answer_level_27">SCHROEDINGER </string>
+    <string name="logicword_answer_level_28">CORTANA </string>
+    <string name="logicword_answer_level_29">BARNEY STINTSON </string>
+    <string name="logicword_answer_level_30">GTA 5 </string>
+    <string name="logicword_answer_level_31">HILLARY CLINTON </string>
+    <string name="logicword_answer_level_32">DONALD TRUMP </string>
+    <string name="logicword_answer_level_33">MELANIA </string>
+    <string name="logicword_answer_level_34">843773743368 </string>
+    <string name="logicword_answer_level_35">I AM THE GREATEST </string>
+    <string name="logicword_answer_level_36">SAN FRANCISCO </string>
+    <string name="logicword_answer_level_37">BILL GATES </string>
+    <string name="logicword_answer_level_38">CHARLIE SHEEN </string>
+    <string name="logicword_answer_level_39">42 </string>
+    <string name="logicword_answer_level_40">KENNYS </string>
+    <string name="logicword_answer_level_41">NOTHING </string>
+    <string name="logicword_answer_level_42">5 </string>
+    <string name="logicword_answer_level_43">JOKER </string>
+    <string name="logicword_answer_level_44">PI </string>
+    <string name="logicword_answer_level_45">MUSIC</string>
+    <string name="logicword_answer_level_46">TESLA</string>
+    <string name="logicword_answer_level_47">FALLOUT 76</string>
+    <string name="logicword_answer_level_48">ANDROID 3</string>
+    <string name="logicword_answer_level_49">PARA BELLUM</string>
+    <string name="logicword_answer_level_50"></string>
+
+    <string name="logicword_hint1_title">Zeige ersten Buchstaben</string>
+    <string name="logicword_hint1_message">Erster Buchstabe:</string>
+    <string name="logicword_hint1_positivebutton">Schließen</string>
+
+    <string name="logicword_hint2_title">Zusammenhang</string>
+    <string name="logicword_hint2_positivebutton">Schließen</string>
+
+    <string name="logicword_hint2_level_1">Additive Farbmischung</string>
+    <string name="logicword_hint2_level_2">Eine einfache Addition (20 + 1)</string>
+    <string name="logicword_hint2_level_3">Es gibt ein Kartenspiel bei dem man so nah wie möglich an die 21 kommen muss, aber nicht überschreiten darf.</string>
+    <string name="logicword_hint2_level_4">Rechnen mit römischen Zahlen: M = 1000, X = 10, V = 5, I = 1</string>
+    <string name="logicword_hint2_level_5">NaCl ist in der Chemie die Abkürzung für Natriumchlorid und das ist ein …</string>
+    <string name="logicword_hint2_level_6">Das ist etwas schwieriger. Du musst dir überlegen, welche Nummern wie die Buchstaben S, A, L, und T aussehen.</string>
+    <string name="logicword_hint2_level_7">In diesem Level reicht es den oberen Bildschirmrand anzuschauen.</string>
+    <string name="logicword_hint2_level_8">Schaue dir mal die Schreibweise der Wörter genau an.</string>
+    <string name="logicword_hint2_level_9">Der Golden State ist ein US-Bundesstaat an der Westküste. Bekannte Städte sind Los Angelos oder San Francisco.</string>
+    <string name="logicword_hint2_level_10">Das ist nicht so schwer. Was ist denn das Gegenteil von JA?</string>
+    <string name="logicword_hint2_level_11">E = m*c² ist eine berühmte physikalische Gleichung. Aber wer hat sie erstellt?</string>
+    <string name="logicword_hint2_level_12">In den USA die 911 zu wählen wäre bei uns dasselbe, wenn du die 110 wählst.</string>
+    <string name="logicword_hint2_level_13">Auch hier reicht es einfach den oberen Bildschirmrand anzuschauen.</string>
+    <string name="logicword_hint2_level_14">Das, was du hier siehst, in ein sehr bekanntes Verschlüsselungssystem. Allerdings wird es nicht mehr so oft verwendet.</string>
+    <string name="logicword_hint2_level_15">Im Englischen Save Our Souls. … stehen für ein S und --- steht für ein O.</string>
+    <string name="logicword_hint2_level_16">Welche Stadt besteht fast ausschließlich aus Casinos? Kleiner Tipp: Die Stadt befindest sich im US-Bundesstaat Nevada.</string>
+    <string name="logicword_hint2_level_17">Siri ist der Sprachassistent bei Appleprodukten. Aber auf welchem Betriebssystem läuft Siri?</string>
+    <string name="logicword_hint2_level_18">Ein sehr berühmtes Zitat von einem amerikanischen Unternehmer, der leider schon verstorben ist. Er war der Gründer des Unternehmens Apple.</string>
+    <string name="logicword_hint2_level_19">Hier heißt es wieder Buchstaben mit Zahlen vertauschen. Welche Buchstaben ähneln den Zahlen 1, 3 und 7?</string>
+    <string name="logicword_hint2_level_20">Der Name Google kommt von einem Wert. Dieser Wert ist eine 1 mit 100 Nullen. Aber wie heißt er?</string>
+    <string name="logicword_hint2_level_21">Wenn du im Internet bist gibt man 3 mal einen Buchstaben ein, um eine Website zu öffnen. Genau das musst du hier auch machen.</string>
+    <string name="logicword_hint2_level_22">Hofstadter ist der Nachname von Leonard, der mit Sheldon in einer WG lebt. Doch wie heißt Sheldon mit Nachnamen? (Ja, hier geht es um The big bang theory)</string>
+    <string name="logicword_hint2_level_23">In dieser Serie geht es um einen Polizisten namens Mike. Er hat eine Freundin, später ist sie auch seine Frau. Doch wie heißt sie?</string>
+    <string name="logicword_hint2_level_24">Es gibt ein Gerät, welches aussieht wie ein Laptop, jedoch kann man den Bildschirm von der Tastatur trennen. Wie heißt dieses Gerät?</string>
+    <string name="logicword_hint2_level_25">Vault-Tec ist in diesem Spiel eine Firma, welche das Ziel verfolgt, dass die Bürger Amerikas Schutz vor einem Nuklearkrieg hat. Deshalb baut sie riesige Bunker. Wie heißt die Spieleserie?</string>
+    <string name="logicword_hint2_level_26">Schau mal auf deine Tastatur. Was sind die ersten 6 Buchstaben?</string>
+    <string name="logicword_hint2_level_27">Wenn man eine Katze in eine Box mit einer Flasche Gift sperrt, so kann man nicht wissen, ob die Katze lebt oder schon tot ist. Die ist also in diesem Fall gleichzeitig lebendig und tot. Von wem ist dieses Gedankenexpermient?</string>
+    <string name="logicword_hint2_level_28">Die Spracheingabe in Windows und gleichzeitig eine künstliche Intelligenz in HALO. Wie heißt sie?</string>
+    <string name="logicword_hint2_level_29">Der Brocode ist der heilige Kodex für alle Bros. Welcher Charakter der Serie How I met your mother hat sein Leben nach diesem Buch gerichtet?</string>
+    <string name="logicword_hint2_level_30">Hierbei handelt es sich um ein Videospiel von Rockstar Games. Du kannst entweder Online spielen oder einer der drei Chraktere: Franklin Clinton, Michael DeSanta oder Trevor Phillips.</string>
+    <string name="logicword_hint2_level_31">Bill Clintons Frau hat versucht Präsidentin der USA zu werden. Wie heißt sie?</string>
+    <string name="logicword_hint2_level_32">In dem Wahlkampf hat Hillary Clinton gegen ihren republikanischen Konkurrenten verloren. Wie heißt er?</string>
+    <string name="logicword_hint2_level_33">Hier musst du einfach den Vornamen von Donald Trumps Frau eingeben.</string>
+    <string name="logicword_hint2_level_34">Ein kleines Rätsel. Wenn du jemanden anrufst, sind auf den Nummerntasten Buchstaben hinterlegt. Du musst einfach jeden Buchstaben abgehen und die jeweilige Nummer eingeben.</string>
+    <string name="logicword_hint2_level_35">Muhammed Alis wohl berühmtestes Zitat lautet …? </string>
+    <string name="logicword_hint2_level_36">Das Silicon Valley ist ein Stadtteil welcher Stadt? Tipp: Sie liegt in Kalifornien.</string>
+    <string name="logicword_hint2_level_37">Windows ist ein Betriebssystem für Computer, aber wer hat es ins Leben gerufen?</string>
+    <string name="logicword_hint2_level_38">Charlie Harper ist der meist betrunkene Jingle-Schreiber aus der Serie Two and a half men. Von wem wird er verkörpert?</string>
+    <string name="logicword_hint2_level_39">Im Buch Per Anhalter durch die Galaxis steht die allesumworbene Antwort auf Alles. Doch wie lautet sie?</string>
+    <string name="logicword_hint2_level_40">Magic Stick ist der Name einer Waffe eines CS:GO E-Sport Gamer aus dem Team EnVyUs. Wie heißt der Spieler? Tipp: Im echten Lebel heißt er Kenny Schrub.</string>
+    <string name="logicword_hint2_level_41">Was siehst du?</string>
+    <string name="logicword_hint2_level_42">Hier musst du einfach die Buchstaben im Wort COUNT zählen.</string>
+    <string name="logicword_hint2_level_43">Da kann einem schon die Angst kommen, wenn er aufkreuzt. Er und seine Harley Quinn sind König und Königin von Gotham City. Er hat oft mit Batman zu tun.</string>
+    <string name="logicword_hint2_level_44">14159265 sind nicht die einzigen Stellen nach dem Komma. Weißt du wie die unendliche Zahl heißt?</string>
+    <string name="logicword_hint2_level_45">Das hier sind Takte.</string>
+    <string name="logicword_hint2_level_46">Eine Marke für Elektroautos. Die Buchstaben bzw. Zahlen sind Modelle dieser Marke.</string>
+    <string name="logicword_hint2_level_47">Ein auf der E3 von Bethesda vorgestelltes Spiel.</string>
+    <string name="logicword_hint2_level_48">Hier muss man sich wirklich mit Android auskennen. Du musst die zugehörige Android Version eingeben.</string>
+    <string name="logicword_hint2_level_49">Hier geht es um ein Spiel von Ubisoft in dem die oben genannten Charaktere spielen. Doch wie heißt die zugehörige Operation?</string>
+    <string name="logicword_hint2_level_50"></string>
+
+    <string name="logicword_hint3_title">Level überspringen</string>
+    <string name="logicword_hint3_toast">Level übersrungen</string>
+    <string name="logicword_hint3_toast_answer">Lösung: </string>
+    <string name="logicword_hint_purchase_notpossible">Das kannst du gerade nicht leisten.</string>
+
+    <!-- Strings in Just One Word DE-->
+    <string name="justoneword_level_level_1">LIVING ROOM</string>
+    <string name="justoneword_level_level_2">KITCHEN</string>
+    <string name="justoneword_level_level_3">COMPUTER</string>
+    <string name="justoneword_level_level_4">CAR</string>
+    <string name="justoneword_level_level_5">COUNTRY LEADERS</string>
+    <string name="justoneword_level_level_6">DOG BREEDS</string>
+    <string name="justoneword_level_level_7">SCHOOL</string>
+    <string name="justoneword_level_level_8">COUNTRIES IN EUROPE</string>
+    <string name="justoneword_level_level_9">WATER ANIMALS</string>
+    <string name="justoneword_level_level_10">MOBILE PHONES</string>
+    <string name="justoneword_level_level_11">FRUITS</string>
+    <string name="justoneword_level_level_12">VEGETABLES</string>
+    <string name="justoneword_level_level_13">COLORS</string>
+    <string name="justoneword_level_level_14">BREAKFAST</string>
+    <string name="justoneword_level_level_15">CAR BRANDS</string>
+    <string name="justoneword_level_level_16">SPORTS</string>
+    <string name="justoneword_level_level_17">INSTRUMENTS</string>
+    <string name="justoneword_level_level_18">RELIGIONS</string>
+    <string name="justoneword_level_level_19">TELEVISION STATIONS</string>
+    <string name="justoneword_level_level_20">BIG FIVE</string>
+    <string name="justoneword_level_level_21">GREEK LETTERS</string>
+    <string name="justoneword_level_level_22">CONSOLES</string>
+    <string name="justoneword_level_level_23">OS</string>
+    <string name="justoneword_level_level_24">COMIC HEROES</string>
+    <string name="justoneword_level_level_25">COUNTRIES IN ASIA</string>
+    <string name="justoneword_level_level_26">CHEMISCHE ELEMENTE</string>
+    <string name="justoneword_level_level_27">FALLOUT</string>
+    <string name="justoneword_level_level_28">FORMEL 1 FAHRER (2018)</string>
+    <string name="justoneword_level_level_29">AMERIKANISCHER LATE NIGHT SHOW HOST</string>
+    <string name="justoneword_level_level_30">PRIMZAHLEN (1–20)</string>
+
+    <string name="justoneword_level_answer1_level_1">TV</string>
+    <string name="justoneword_level_answer1_level_2">OVEN</string>
+    <string name="justoneword_level_answer1_level_3">MONITOR</string>
+    <string name="justoneword_level_answer1_level_4">STEERING WHEEL</string>
+    <string name="justoneword_level_answer1_level_5">DONALD TRUMP</string>
+    <string name="justoneword_level_answer1_level_6">LABRADOR</string>
+    <string name="justoneword_level_answer1_level_7">TEACHER</string>
+    <string name="justoneword_level_answer1_level_8">GERMANY</string>
+    <string name="justoneword_level_answer1_level_9">FISH</string>
+    <string name="justoneword_level_answer1_level_10">IPHONE</string>
+    <string name="justoneword_level_answer1_level_11">APPLE</string>
+    <string name="justoneword_level_answer1_level_12">CUCUMBER</string>
+    <string name="justoneword_level_answer1_level_13">RED</string>
+    <string name="justoneword_level_answer1_level_14">EGG</string>
+    <string name="justoneword_level_answer1_level_15">BMW</string>
+    <string name="justoneword_level_answer1_level_16">TENNIS</string>
+    <string name="justoneword_level_answer1_level_17">PIANO</string>
+    <string name="justoneword_level_answer1_level_18">CHRISTIANITY</string>
+    <string name="justoneword_level_answer1_level_19">BBC</string>
+    <string name="justoneword_level_answer1_level_20">ELEPHANT</string>
+    <string name="justoneword_level_answer1_level_21">ALPHA</string>
+    <string name="justoneword_level_answer1_level_22">PLAYSTATION</string>
+    <string name="justoneword_level_answer1_level_23">WINDOWS</string>
+    <string name="justoneword_level_answer1_level_24">BATMAN</string>
+    <string name="justoneword_level_answer1_level_25">CHINA</string>
+    <string name="justoneword_level_answer1_level_26">WASSERSTOFF</string>
+    <string name="justoneword_level_answer1_level_27">2</string>
+    <string name="justoneword_level_answer1_level_28">ALONSO</string>
+    <string name="justoneword_level_answer1_level_29">JIMMY KIMMEL</string>
+    <string name="justoneword_level_answer1_level_30">3</string>
+
+    <string name="justoneword_level_answer2_level_1">TABLE</string>
+    <string name="justoneword_level_answer2_level_2">STOVE</string>
+    <string name="justoneword_level_answer2_level_3">MOUSE</string>
+    <string name="justoneword_level_answer2_level_4">TIRE</string>
+    <string name="justoneword_level_answer2_level_5">WLADIMIR PUTIN</string>
+    <string name="justoneword_level_answer2_level_6">POODLE</string>
+    <string name="justoneword_level_answer2_level_7">STUDENT</string>
+    <string name="justoneword_level_answer2_level_8">FRANCE</string>
+    <string name="justoneword_level_answer2_level_9">SHARK</string>
+    <string name="justoneword_level_answer2_level_10">GOOGLE PIXEL</string>
+    <string name="justoneword_level_answer2_level_11">BANANA</string>
+    <string name="justoneword_level_answer2_level_12">TOMATO</string>
+    <string name="justoneword_level_answer2_level_13">GREEN</string>
+    <string name="justoneword_level_answer2_level_14">BACON</string>
+    <string name="justoneword_level_answer2_level_15">MERCEDES</string>
+    <string name="justoneword_level_answer2_level_16">FOOTBALL</string>
+    <string name="justoneword_level_answer2_level_17">VIOLIN</string>
+    <string name="justoneword_level_answer2_level_18">JUDAISM</string>
+    <string name="justoneword_level_answer2_level_19">ABC</string>
+    <string name="justoneword_level_answer2_level_20">RHINO</string>
+    <string name="justoneword_level_answer2_level_21">BETA</string>
+    <string name="justoneword_level_answer2_level_22">XBOX</string>
+    <string name="justoneword_level_answer2_level_23">LINUX</string>
+    <string name="justoneword_level_answer2_level_24">SUPERMAN</string>
+    <string name="justoneword_level_answer2_level_25">JAPAN</string>
+    <string name="justoneword_level_answer2_level_26">URAN</string>
+    <string name="justoneword_level_answer2_level_27">3</string>
+    <string name="justoneword_level_answer2_level_28">LECLERC</string>
+    <string name="justoneword_level_answer2_level_29">JIMMY FALLON</string>
+    <string name="justoneword_level_answer2_level_30">7</string>
+
+    <string name="justoneword_level_answer3_level_1">CABINET</string>
+    <string name="justoneword_level_answer3_level_2">MICROWAVE</string>
+    <string name="justoneword_level_answer3_level_3">KEYBOARD</string>
+    <string name="justoneword_level_answer3_level_4">ENGINE</string>
+    <string name="justoneword_level_answer3_level_5">THERESA MAY</string>
+    <string name="justoneword_level_answer3_level_6">SHEPHERD</string>
+    <string name="justoneword_level_answer3_level_7">CLASS</string>
+    <string name="justoneword_level_answer3_level_8">SWEDEN</string>
+    <string name="justoneword_level_answer3_level_9">STAR FISH</string>
+    <string name="justoneword_level_answer3_level_10">HTC ONE</string>
+    <string name="justoneword_level_answer3_level_11">ORANGE</string>
+    <string name="justoneword_level_answer3_level_12">PAPRIKA</string>
+    <string name="justoneword_level_answer3_level_13">BLUE</string>
+    <string name="justoneword_level_answer3_level_14">BREAD</string>
+    <string name="justoneword_level_answer3_level_15">TESLA</string>
+    <string name="justoneword_level_answer3_level_16">FORMULA 1</string>
+    <string name="justoneword_level_answer3_level_17">DRUMS</string>
+    <string name="justoneword_level_answer3_level_18">ISLAM</string>
+    <string name="justoneword_level_answer3_level_19">PRO 7</string>
+    <string name="justoneword_level_answer3_level_20">LION</string>
+    <string name="justoneword_level_answer3_level_21">GAMMA</string>
+    <string name="justoneword_level_answer3_level_22">WII</string>
+    <string name="justoneword_level_answer3_level_23">ANDROID</string>
+    <string name="justoneword_level_answer3_level_24">HULK</string>
+    <string name="justoneword_level_answer3_level_25">INDIA</string>
+    <string name="justoneword_level_answer3_level_26">NATRIUM</string>
+    <string name="justoneword_level_answer3_level_27">NEW VEGAS</string>
+    <string name="justoneword_level_answer3_level_28">VERSTAPPEN</string>
+    <string name="justoneword_level_answer3_level_29">SETH MEYERS</string>
+    <string name="justoneword_level_answer3_level_30">11</string>
+
+    <string name="justoneword_level_answer4_level_1">CARPET</string>
+    <string name="justoneword_level_answer4_level_2">REFRIGERATOR</string>
+    <string name="justoneword_level_answer4_level_3">PRINTER</string>
+    <string name="justoneword_level_answer4_level_4">CAR SEAT</string>
+    <string name="justoneword_level_answer4_level_5">XI JINPING</string>
+    <string name="justoneword_level_answer4_level_6">ROTTWEILER</string>
+    <string name="justoneword_level_answer4_level_7">BLACKBOARD</string>
+    <string name="justoneword_level_answer4_level_8">AUSTRIA</string>
+    <string name="justoneword_level_answer4_level_9">DOLPHIN</string>
+    <string name="justoneword_level_answer4_level_10">SAMSUNG GALAXY</string>
+    <string name="justoneword_level_answer4_level_11">PEAR</string>
+    <string name="justoneword_level_answer4_level_12">SALAD</string>
+    <string name="justoneword_level_answer4_level_13">ORANGE</string>
+    <string name="justoneword_level_answer4_level_14">SAUSAGE</string>
+    <string name="justoneword_level_answer4_level_15">FERRARI</string>
+    <string name="justoneword_level_answer4_level_16">TRACK AND FIELD</string>
+    <string name="justoneword_level_answer4_level_17">BASS</string>
+    <string name="justoneword_level_answer4_level_18">HINDUISM</string>
+    <string name="justoneword_level_answer4_level_19">RTL</string>
+    <string name="justoneword_level_answer4_level_20">BUFFALO</string>
+    <string name="justoneword_level_answer4_level_21">DELTA</string>
+    <string name="justoneword_level_answer4_level_22">SWITCH</string>
+    <string name="justoneword_level_answer4_level_23">IOS</string>
+    <string name="justoneword_level_answer4_level_24">WONDER WOMAN</string>
+    <string name="justoneword_level_answer4_level_25">SOUTH KOREA</string>
+    <string name="justoneword_level_answer4_level_26">GOLD</string>
+    <string name="justoneword_level_answer4_level_27">4</string>
+    <string name="justoneword_level_answer4_level_28">GASLY</string>
+    <string name="justoneword_level_answer4_level_29">SAMANTHA BEE</string>
+    <string name="justoneword_level_answer4_level_30">13</string>
+
+    <string name="justoneword_level_answer5_level_1">SOFA</string>
+    <string name="justoneword_level_answer5_level_2">SINK</string>
+    <string name="justoneword_level_answer5_level_3">SPEAKER</string>
+    <string name="justoneword_level_answer5_level_4">BATTERY</string>
+    <string name="justoneword_level_answer5_level_5">ANGELA MERKEL</string>
+    <string name="justoneword_level_answer5_level_6">COLLIE</string>
+    <string name="justoneword_level_answer5_level_7">PRINCIPAL</string>
+    <string name="justoneword_level_answer5_level_8">SPAIN</string>
+    <string name="justoneword_level_answer5_level_9">WHALE</string>Q
+    <string name="justoneword_level_answer5_level_10">HUAWEI P10</string>
+    <string name="justoneword_level_answer5_level_11">RASPBERRY</string>
+    <string name="justoneword_level_answer5_level_12">CARROT</string>
+    <string name="justoneword_level_answer5_level_13">YELLOW</string>
+    <string name="justoneword_level_answer5_level_14">BREAD</string>
+    <string name="justoneword_level_answer5_level_15">ROLLS ROYCE</string>
+    <string name="justoneword_level_answer5_level_16">GYMNASTICS</string>
+    <string name="justoneword_level_answer5_level_17">GUITAR</string>
+    <string name="justoneword_level_answer5_level_18">BUDDHISM</string>
+    <string name="justoneword_level_answer5_level_19">ORF</string>
+    <string name="justoneword_level_answer5_level_20">LEOPARD</string>
+    <string name="justoneword_level_answer5_level_21">OMEGA</string>
+    <string name="justoneword_level_answer5_level_22">DS</string>
+    <string name="justoneword_level_answer5_level_23">MACOS</string>
+    <string name="justoneword_level_answer5_level_24">CAPTAIN AMERICA</string>
+    <string name="justoneword_level_answer5_level_25">VIETNAM</string>
+    <string name="justoneword_level_answer5_level_26">XENON</string>
+    <string name="justoneword_level_answer5_level_27">76</string>
+    <string name="justoneword_level_answer5_level_28">BOTTAS</string>
+    <string name="justoneword_level_answer5_level_29">STEPHEN COLBERT</string>
+    <string name="justoneword_level_answer5_level_30">19</string>
+
+
+    <!-- Strings in ThemeMenu DE -->
+    <string name="theme_button_blueblack">BLAU - schwarz</string>
+    <string name="theme_button_redblack">ROT - schwarz</string>
+    <string name="theme_button_greenblack">GRÜN - schwarz</string>
+    <string name="theme_button_yellowblack">GELB - schwarz</string>
+    <string name="theme_button_blackblue">SCHWARZ - blau</string>
+    <string name="theme_button_blackred">SCHWARZ - rot</string>
+    <string name="theme_button_blackgreen">SCHWARZ - grün</string>
+    <string name="theme_button_blackyellow">SCHWARZ - gelb</string>
+    <string name="theme_button_back">Zurück</string>
+
+
+    <!-- Strings in 2 Pics 1 Word DE -->
+    <string name="twopicsoneword_imageview_leftPic_contentdescription">leftPic</string>
+    <string name="twopicsoneword_imageview_rightPic_contentdescription">rightPic</string>
+
+    <string name="twopicsoneword_textview_level">Level</string>
+    <string name="twopicsoneword_button_check">Check</string>
+    <string name="twopicsoneword_edittext_content_hint">Antwort</string>
+    <string name="twopicsoneword_button_back">Zurück</string>
+    <string name="twopicsoneword_buckstext">Münzen</string>
+    <string name="twopicsoneword_bucksvalue_def">0</string>
+
+    <string name="twopicsoneword_button_hint1">ERSTER BUCHSTABE</string>
+    <string name="twopicsoneword_button_hint2">ZUSAMMENHANG</string>
+    <string name="twopicsoneword_button_hint3">LEVEL ÜBERSPRUNGEN</string>
+
+    <string name="twopicsoneword_level_answer_level_1">WatchDogs</string>
+    <string name="twopicsoneword_level_answer_level_2">flashbang</string>
+    <string name="twopicsoneword_level_answer_level_3">virus</string>
+    <string name="twopicsoneword_level_answer_level_4">death metal</string>
+    <string name="twopicsoneword_level_answer_level_5">artwork</string>
+    <string name="twopicsoneword_level_answer_level_6">keyboard</string>
+    <string name="twopicsoneword_level_answer_level_7">batman</string>
+    <string name="twopicsoneword_level_answer_level_8">tafel</string>
+    <string name="twopicsoneword_level_answer_level_9">autotür</string>
+    <string name="twopicsoneword_level_answer_level_10"></string>
+
+    <string name="twopicsoneword_hint2_level_1">video game developed by Ubisoft Montreal and published by Ubisoft.</string>
+    <string name="twopicsoneword_hint2_level_2">non-lethal explosive device used to temporarily disorient an enemy´s senses</string>
+    <string name="twopicsoneword_hint2_level_3">small infectious agent that replicates only inside the living cells of other organisms</string>
+    <string name="twopicsoneword_hint2_level_4">extreme subgenre of heavy metal music</string>
+    <string name="twopicsoneword_hint2_level_5">aesthetic physical item or artistic creation</string>
+    <string name="twopicsoneword_hint2_level_6">set of adjacent depressible levers or keys on a musical instrument</string>
+    <string name="twopicsoneword_hint2_level_7">fictional superhero appearing in American comic books published by DC Comics</string>
+    <string name="twopicsoneword_hint2_level_8">Das benutzen Lehrer im Unterricht.</string>
+    <string name="twopicsoneword_hint2_level_9">Das brauchst du, um in ein Auto zu kommen.</string>
+    <string name="twopicsoneword_hint2_level_10"></string>
+
+    <!-- Strings in JustOneWord DE -->
+    <string name="justoneword_textview_levelview">Level</string>
+    <string name="justoneword_textview_bucksview">Münzen</string>
+    <string name="justoneword_textview_bucksvalue_default">0</string>
+    <string name="justoneword_textview_mainword">Mainword</string>
+    <string name="justoneword_textview_answer1">Antwort 1</string>
+    <string name="justoneword_textview_answer2">Antwort 2</string>
+    <string name="justoneword_textview_answer3">Antwort 3</string>
+    <string name="justoneword_textview_answer4">Antwort 4</string>
+    <string name="justoneword_textview_answer5">Antwort 5</string>
+    <string name="justoneword_button_check">CHECK</string>
+    <string name="justoneword_button_back">ZURÜCK</string>
+
+    <!-- Strings in Credits DE -->
+    <string name="credits_headline">Credits</string>
+    <string name="credits_programming_headline">Programmierung</string>
+    <string name="credits_programmingassistance_headline">Assistenz Programmierung</string>
+    <string name="credits_levelassistance_headline">Assistenz Level</string>
+    <string name="credits_music_headline">Musik</string>
+    <string name="credits_button_back">ZURÜCK</string>
+    <string name="credits_name_niklasenglmeier">Niklas Englmeier, NESAT STUDIO</string>
+    <string name="credits_name_kilianbetzl">Kilian Betzl</string>
+    <string name="credits_name_nicoschott">Nicolas Schott</string>
+    <string name="credits_name_benediktschmitt">Benedikt Schmitt</string>
+    <string name="credits_name_sakuramurayama">Sakura Murayama</string>
+    <string name="credits_name_xrenon">Musik von Xrenon the MusicMage:</string>
+    <string name="credits_name_xrenon_2">First Try</string>
+    <string name="credits_name_parents_teachers">Meine Eltern und ein paar meiner Lehrer</string>
+
+    <!-- div Strings DE-->
+    <string name="div_ratedialog_title">Bewerte TheWordGame</string>
+    <string name="div_ratedialog_message">Wilst du TheWordGame im Play Store bewerten?</string>
+    <string name="div_ratedialog_message_p2">Du bekommst 200 Münzen.</string>
+    <string name="div_ratedialog_positivebutton">Jetzt bewerten</string>
+    <string name="div_ratedialog_neutralbutton">Nein, bitte nicht mehr erinnern</string>
+    <string name="div_ratedialog_negativebutton">Jetzt gerade nicht</string>
+
+    <!-- ResetMenu Strings -->
+    <string name="reset_title">Zurücksetzen</string>
+    <string name="reset_logicword_1">LogicWord Level :</string>
+    <string name="reset_twopicsoneword_1">TwoPicsOneWord Level :</string>
+    <string name="reset_justoneword_1">JustOneWord Level :</string>
+    <string name="reset_bucks_1">Aktuelles Guthaben :</string>
+    <string name="reset_bucks_2">Bucks</string>
+    <string name="reset_button_confirm">BESTÄTIGEN</string>
+    <string name="reset_button_back">ZURÜCK</string>
+
+</resources>

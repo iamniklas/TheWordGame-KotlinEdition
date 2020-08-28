@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context="nesat.thewordgame.ResetActivityK">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="0.5" />
+
+    <TextView
+        android:id="@+id/reset_headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+        android:text="@string/reset_title"
+        android:textAlignment="center"
+        android:textColor="@color/LightBlue400"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="0.5" />
+
+    <TextView
+        android:id="@+id/reset_logicword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+        android:text="@string/reset_logicword_1"
+        android:textColor="@color/LightBlue400"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_weight="0.5" />
+
+    <TextView
+        android:id="@+id/reset_twopicsoneword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+        android:text="@string/reset_twopicsoneword_1"
+        android:textColor="@color/LightBlue400"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_weight="0.5" />
+
+    <TextView
+        android:id="@+id/reset_justoneword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+        android:text="@string/reset_justoneword_1"
+        android:textColor="@color/LightBlue400"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_weight="0.5" />
+
+    <TextView
+        android:id="@+id/reset_bucks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+        android:text="@string/reset_bucks_1"
+        android:textColor="@color/LightBlue400"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_weight="0.5" />
+
+    <Button
+        android:id="@+id/reset_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/greenA400"
+        android:fontFamily="casual"
+        android:text="@string/reset_button_confirm"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_weight="0.5" />
+
+    <Button
+        android:id="@+id/reset_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/redA400"
+        android:fontFamily="casual"
+        android:text="@string/reset_button_back"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+</LinearLayout>

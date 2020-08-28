@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SeekBarTheme" parent="Widget.AppCompat.SeekBar" >
+        <item name="colorPrimary">#ffffff</item>
+        <item name="colorAccent">#ffffff</item>
+        <item name="colorPrimaryDark">#ffffff</item>
+    </style>
+
+    <style name="EditTextTheme15" parent="Widget.AppCompat.EditText">
+        <item name="colorPrimary">#40c4ff</item>
+        <item name="colorAccent">#40c4ff</item>
+        <item name="colorPrimaryDark">#40c4ff</item>
+    </style>
+
+    <style name="EditTextTheme26" parent="Widget.AppCompat.EditText">
+        <item name="colorPrimary">#D50000</item>
+        <item name="colorAccent">#D50000</item>
+        <item name="colorPrimaryDark">#D50000</item>
+    </style>
+
+    <style name="EditTextTheme37" parent="Widget.AppCompat.EditText">
+        <item name="colorPrimary">#76FF03</item>
+        <item name="colorAccent">#76FF03</item>
+        <item name="colorPrimaryDark">#76FF03</item>
+    </style>
+
+    <style name="EditTextTheme48" parent="Widget.AppCompat.EditText">
+        <item name="colorPrimary">#FFFF00</item>
+        <item name="colorAccent">#FFFF00</item>
+        <item name="colorPrimaryDark">#FFFF00</item>
+    </style>
+
+    <style name="EditTextTheme" parent="Widget.AppCompat.EditText">
+        <item name="colorPrimary">#ffffff</item>
+        <item name="colorAccent">#ffffff</item>
+        <item name="colorPrimaryDark">#ffffff</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

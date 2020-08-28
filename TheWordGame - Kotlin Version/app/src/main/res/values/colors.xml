@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#03A9F4</color>
+    <color name="colorAccent">#03A9F4</color>
+
+
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+
+
+    <color name="universalwhiteconstrust">#ffffff</color>
+
+
+    <color name="greenA400">#76FF03</color>
+    <color name="redA400">#ff1744</color>
+
+
+    <color name="LightBlue100">#B3E5FC</color>
+    <color name="LightBlue200">#81D4FA</color>
+    <color name="LightBlue300">#4FC3F7</color>
+    <color name="LightBlue400">#29B6F6</color>
+    <color name="LightBlue500">#03A9F4</color>
+    <color name="LightBlue600">#039BE5</color>
+    <color name="LightBlue700">#0288D1</color>
+    <color name="LightBlue800">#0277BD</color>
+
+
+    <color name="LightBlueA100">#80D8FF</color>
+    <color name="LightBlueA200">#40C4FF</color>
+    <color name="LightBlueA400">#00B0FF</color>
+    <color name="LightBlueA700">#0091EA</color>
+
+
+    <color name="universalblueconstrast">#00b0ff</color>
+
+    <color name="theme5TextColor">#40c4ff</color>
+    <color name="theme6TextColor">#D50000</color>
+    <color name="theme7TextColor">#76FF03</color>
+    <color name="theme8TextColor">#FFFF00</color>
+    <color name = "theme9TextColor">#FF1493</color>
+    <color name = "theme10TextColor">#FFFFFF</color>
+
+</resources>
