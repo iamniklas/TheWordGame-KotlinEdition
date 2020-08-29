@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TheWordGame - Kotlin Version.iml" filepath="$PROJECT_DIR$/TheWordGame - Kotlin Version.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TheWordGame_-_Kotlin_Version.iml" filepath="$PROJECT_DIR$/.idea/modules/TheWordGame_-_Kotlin_Version.iml" group="TheWordGame_-_Kotlin_Version" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="TheWordGame - Kotlin Version/app" />
     </modules>
   </component>
 </project>
